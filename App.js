@@ -5,7 +5,7 @@ import {Button, Animated , Dimensions , StyleSheet, Text, View } from 'react-nat
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 //import {Exercice3, Dataview}  from './Exercice3';
-import Map from './Exercice4';
+import Exo6 from './Exercice4-6';
 
 class HomeScreen extends React.Component {
   render() {
@@ -31,8 +31,8 @@ class MapScreen extends React.Component {
   render() {
     return (
       <View>
-      <Map style={styles.mapStyle}>
-      </Map>
+      <Exo6 style={styles.mapStyle}>
+      </Exo6>
       </View>
     )
   }
